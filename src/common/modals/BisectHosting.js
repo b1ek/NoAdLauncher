@@ -8,6 +8,7 @@ import BisectHostingLogo from '../../ui/BisectHosting';
 import ga from '../utils/analytics';
 
 const BisectHosting = () => {
+  return <></>;
   return (
     <Modal
       css={`

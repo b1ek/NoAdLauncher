@@ -18,7 +18,6 @@ import {
   updateUpdateAvailable,
   isNewVersionAvailable
 } from '../../../common/reducers/actions';
-import BisectHosting from '../../../ui/BisectHosting';
 import Logo from '../../../ui/Logo';
 import ga from '../../../common/utils/analytics';
 
@@ -198,21 +197,6 @@ const SystemNavbar = () => {
               height: 100%;
             `}
           >
-            <div
-              css={`
-                white-space: nowrap;
-              `}
-            >
-              Partnered with &nbsp;&nbsp;
-            </div>
-            <BisectHosting
-              showPointerCursor
-              onClick={() => {
-                ga.sendCustomEvent('BHAdViewNavbar');
-                dispatch(openModal('BisectHosting'));
-              }}
-            />
-            {/* <PulsatingCircle /> */}
           </div>
         </>
       )}
@@ -295,11 +279,12 @@ const SystemNavbar = () => {
               height: 100%;
             `}
           >
-            Partnered with &nbsp;&nbsp;
+            {/*Partnered with &nbsp;&nbsp;
             <BisectHosting
               showPointerCursor
               onClick={() => dispatch(openModal('BisectHosting'))}
             />
+            *\}
             {/* <PulsatingCircle /> */}
           </div>
           <div>

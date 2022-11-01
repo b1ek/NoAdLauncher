@@ -1,4 +1,4 @@
-# GDLauncher
+# GDLauncher (no ad version)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 [![GitHub issues](https://img.shields.io/github/issues-raw/gorilla-devs/GDLauncher.svg)](https://github.com/gorilla-devs/GDLauncher/issues) 
@@ -47,6 +47,8 @@
 ## 🎮 What is GDLauncher
 
 GDLauncher is a custom open-source Minecraft launcher written from the ground up in electron/react. Its main goal is to make it easy and enjoyable to manage different Minecraft versions and install `forge/fabric`, bringing the playing and modding experience to the next level!
+
+NoAdLauncher is a fork of GDLauncher that removes ads.
 
 ## ⚡️ Comparison with Twitch Launcher
 

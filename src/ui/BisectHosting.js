@@ -20,6 +20,7 @@ const Logo = styled.svg`
 `;
 
 function BisectHosting({ size, showPointerCursor, onClick, hover }) {
+  return <></>;
   return (
     // eslint-disable-next-line
     <Logo
